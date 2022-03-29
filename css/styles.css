@@ -1,58 +1,79 @@
-                                          :root {
-                                             --main-text-color: #999999;
-                                             --second-text-color: #FFFFFF;
-                                             --main-tittle-color: #FFFFFF;
-                                             --second-tittle-color: #323232;
-                                         }
-                                         
-                                         body {
-                                             font-family: Montserrat, sans-serif;
-                                         }
-                                         
-                                         .header {
-                                             background-color: blueviolet;
-                                         }
-                                         
-                                         .list {
-                                             list-style: none;
-                                         }
-                                         
-                                         .link {
-                                             text-decoration: none;
-                                         }
-                                         
-                                         .header-link {
-                                             font-weight: 500;
-                                             font-size: 16px;
-                                             line-height: 1.25;
-                                             color: #FFFFFF;
-                                         }
-                                         
-                                         .hero {
-                                             background-color: #362b2b;
-                                         }
-                                         
-                                         .hero-text {
-                                             font-weight: 500;
-                                             font-size: 16px;
-                                             line-height: calc(20 / 16);
-                                             /* identical to box height */
-                                             text-align: center;
-                                             color: #FFFFFF;
-                                         }
-                                         
-                                         .hero-tittle {
-                                             font-weight: 800;
-                                             font-size: 48px;
-                                             line-height: calc(64 / 48);
-                                             text-align: center;
-                                             color: #FFFFFF;
-                                         }
-                                         
-                                         .hero-button {
-                                             font-weight: 500;
-                                             font-size: 16px;
-                                             line-height: calc(20 / 16);
-                                             text-align: center;
-                                             color: #FFFFFF;
-                                         }
+:root {
+  --main-text-color: #999999;
+  --second-text-color: #ffffff;
+  --main-tittle-color: #ffffff;
+  --second-tittle-color: #323232;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+.header {
+  background-color: blueviolet;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #ffffff;
+}
+
+.hero {
+  background-color: #362b2b;
+}
+
+.hero-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-tittle {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: calc(64 / 48);
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  text-align: center;
+  color: #ffffff;
+}
+
+.mobile-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.42;
+  text-align: center;
+  color: var(--second-tittle-color);
+}
+
+.mobile-text {
+  font-size: 16px;
+  line-height: 1.56;
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.mobile-list-title {
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
