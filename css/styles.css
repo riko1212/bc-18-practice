@@ -154,18 +154,35 @@ body {
   cursor: pointer;
 }
 
+.standard {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.standard-content {
+  max-width: 489px;
+}
+
+.standard-top {
+  padding-bottom: 90px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 70px;
+}
+
 .standart-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.47;
 
   color: var(--second-tittle-color);
+  margin-bottom: 40px;
 }
 .standart-text {
   font-size: 16px;
   line-height: 1.56;
 
   color: var(--main-text-color);
+  margin-bottom: 30px;
 }
 .standart-link {
   font-weight: 500;
