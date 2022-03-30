@@ -96,12 +96,22 @@ body {
   border-radius: 30px;
 }
 
+.mobile {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
 .mobile-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.42;
   text-align: center;
   color: var(--second-tittle-color);
+
+  max-width: 739px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
 
 .mobile-text {
@@ -109,12 +119,18 @@ body {
   line-height: 1.56;
   text-align: center;
   color: var(--main-text-color);
+
+  max-width: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
 }
 
 .mobile-list-title {
   font-size: 18px;
   line-height: 1.22;
   color: #000000;
+  margin-bottom: 12px;
 }
 
 .mobile-list-text {
@@ -122,6 +138,11 @@ body {
   line-height: 1.57;
   color: var(--main-text-color);
 }
+
+.mobile-list {
+  margin-bottom: 55px;
+}
+
 .mobile-btn {
   color: #ffffff;
   background: #4985ff;
