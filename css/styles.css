@@ -58,6 +58,8 @@ body {
 
 .hero {
   background-color: #362b2b;
+  padding-top: 220px;
+  padding-bottom: 335px;
 }
 
 .hero-text {
@@ -67,6 +69,7 @@ body {
   /* identical to box height */
   text-align: center;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .hero-tittle {
@@ -75,6 +78,9 @@ body {
   line-height: calc(64 / 48);
   text-align: center;
   color: #ffffff;
+  max-width: 829px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .hero-button {
@@ -83,6 +89,11 @@ body {
   line-height: calc(20 / 16);
   text-align: center;
   color: #ffffff;
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  height: 45px;
+  border-radius: 30px;
 }
 
 .mobile-title {
