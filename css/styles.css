@@ -35,11 +35,8 @@ body {
   font-family: Montserrat, sans-serif;
 }
 
-.header {
-  background-color: blueviolet;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
+
+
 
 .list {
   list-style: none;
@@ -47,6 +44,24 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+.header {
+  background-color: blueviolet;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  border-bottom: 1px solid #A1A1A1;
+}
+
+.header-list{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 40px;
+
 }
 
 .header-link {
