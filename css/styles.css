@@ -192,6 +192,15 @@ body {
   padding-bottom: 90px;
   border-bottom: 1px solid #e0e0e0;
   margin-bottom: 70px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.standart-list {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .standart-title {
