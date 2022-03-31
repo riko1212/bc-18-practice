@@ -35,9 +35,6 @@ body {
   font-family: Montserrat, sans-serif;
 }
 
-
-
-
 .list {
   list-style: none;
 }
@@ -51,17 +48,16 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 
-  border-bottom: 1px solid #A1A1A1;
+  border-bottom: 1px solid #a1a1a1;
 }
 
-.header-list{
+.header-list {
   display: flex;
   justify-content: flex-end;
 }
 
 .header-item:not(:last-child) {
   margin-right: 40px;
-
 }
 
 .header-link {
@@ -156,6 +152,13 @@ body {
 
 .mobile-list {
   margin-bottom: 55px;
+  display: flex;
+  margin-left: -30px;
+}
+
+.mobile-item {
+  width: calc(100% / 3 - 30px);
+  margin-left: 30px;
 }
 
 .mobile-btn {
@@ -167,6 +170,13 @@ body {
   line-height: 20px;
   text-align: center;
   cursor: pointer;
+
+  min-width: 200px;
+  height: 45px;
+  border-radius: 30px;
+  border: none;
+  display: block;
+  margin: 0 auto;
 }
 
 .standard {
