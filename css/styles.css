@@ -71,7 +71,12 @@ body {
   background-color: #362b2b;
   padding-top: 220px;
   padding-bottom: 335px;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/hero.jpg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../img/hero.jpg);
   background-repeat: no-repeat;
   margin: 0 auto;
   max-width: 1920px;
@@ -146,6 +151,7 @@ body {
 }
 
 .mobile-list-title {
+  font-weight: 600;
   font-size: 18px;
   line-height: 1.22;
   color: #000000;
@@ -167,6 +173,45 @@ body {
 .mobile-item {
   width: calc(100% / 3 - 30px);
   margin-left: 30px;
+  display: flex;
+}
+
+.mobile-item-content {
+  padding-top: 45px;
+}
+
+.circle-out {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 1px solid #e0e0e0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  margin-right: 17px;
+}
+
+.circle-out:hover .circle-in {
+  background-color: var(--accent-color);
+}
+
+.circle-out:hover .mobile-icon {
+  fill: var(--main-tittle-color);
+}
+
+.circle-in {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 1px solid #4985ff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.mobile-icon {
+  fill: var(--accent-color);
 }
 
 .mobile-btn {
@@ -247,11 +292,16 @@ body {
   color: var(--main-text-color);
 }
 
+.standsrt-icon {
+  fill: var(--accent-color);
+  margin-right: 20px;
+}
+
 .works {
   padding-top: 100px;
   padding-bottom: 85px;
   background-color: #ffffff;
-  background-image: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%);
+  background-image: linear-gradient(90deg, #504dc2 20.44%, #5f12d0 80.91%);
   background-size: 100% 50%;
   background-position: top;
   background-repeat: no-repeat;
