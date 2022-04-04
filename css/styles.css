@@ -71,6 +71,12 @@ body {
   background-color: #362b2b;
   padding-top: 220px;
   padding-bottom: 335px;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  max-width: 1920px;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-text {
@@ -105,6 +111,8 @@ body {
   width: 200px;
   height: 45px;
   border-radius: 30px;
+  background-color: var(--accent-color);
+  border: none;
 }
 
 .mobile {
@@ -242,7 +250,11 @@ body {
 .works {
   padding-top: 100px;
   padding-bottom: 85px;
-  background-color: #323232;
+  background-color: #ffffff;
+  background-image: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%);
+  background-size: 100% 50%;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 .works-title {
