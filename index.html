@@ -52,7 +52,9 @@
           <h1 class="hero-tittle">
             Мы создаем легкие решения сложных задач и проблем
           </h1>
-          <button type="button" class="hero-button">Наши проекты</button>
+          <button type="button" class="hero-button" data-modal-open>
+            Наши проекты
+          </button>
         </div>
       </section>
 
@@ -268,5 +270,11 @@
         <p>Мы не шлем спам, и передаем никому ваши данные.</p>
       </section>
     </main>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-btn" data-modal-close>x</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

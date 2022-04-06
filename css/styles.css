@@ -88,11 +88,9 @@ body {
   background-color: #362b2b;
   padding-top: 320px;
   padding-bottom: 335px;
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(0, 0, 0, 0.2),
-      rgba(0, 0, 0, 0.2)
-    ),
+      rgba(0, 0, 0, 0.2)),
     url(../img/hero.jpg);
   background-repeat: no-repeat;
   margin: 0 auto;
@@ -281,6 +279,7 @@ body {
   color: var(--second-tittle-color);
   margin-bottom: 40px;
 }
+
 .standart-text {
   font-size: 16px;
   line-height: 1.56;
@@ -288,6 +287,7 @@ body {
   color: var(--main-text-color);
   margin-bottom: 30px;
 }
+
 .standart-link {
   font-weight: 500;
   font-size: 16px;
@@ -302,6 +302,7 @@ body {
 
   color: #000000;
 }
+
 .standart-item-text {
   font-size: 16px;
   line-height: 1.56;
@@ -396,4 +397,43 @@ body {
 
 .works-item:first-child {
   margin-left: 0;
+}
+
+
+.backdrop {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  transition: transform 300ms, opacity 300ms, visibility 300ms;
+  transform: rotate(0);
+}
+
+.backdrop.is-hidden .modal {
+  transform: rotate(0);
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.modal {
+  position: absolute;
+  width: 528px;
+  height: 521px;
+  background-color: #FFFFFF;
+  top: 50%;
+  left: 50%;
+  transform:rotate(360deg) translate(-50%, -50%);
+  transition: transform 300ms;
+}
+
+.modal-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
 }
