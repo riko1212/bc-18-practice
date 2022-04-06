@@ -408,11 +408,10 @@ body {
   top: 0;
   left: 0;
   transition: transform 500ms, opacity 300ms, visibility 300ms;
-  transform: rotate(0);
 }
 
 .backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) rotate(0);
+  transform: translate(-50%, -50%) rotate(0) scale(0);
 }
 
 .is-hidden {
@@ -428,7 +427,7 @@ body {
   background-color: #FFFFFF;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) rotate(360deg);
+  transform: translate(-50%, -50%) rotate(360deg) scale(1);
   transition: transform 500ms;
 }
 
