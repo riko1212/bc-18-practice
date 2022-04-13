@@ -1,0 +1,36 @@
+.backdrop {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  transition: transform 500ms, opacity 300ms, visibility 300ms;
+}
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) rotate(0) scale(0);
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.modal {
+  position: absolute;
+  width: 528px;
+  height: 521px;
+  background-color: #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(360deg) scale(1);
+  transition: transform 500ms;
+}
+
+.modal__btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}

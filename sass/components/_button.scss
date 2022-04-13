@@ -1,0 +1,13 @@
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  text-align: center;
+  color: #ffffff;
+
+  width: 200px;
+  height: 45px;
+  border-radius: 30px;
+  background-color: var(--accent-color);
+  border: none;
+}
